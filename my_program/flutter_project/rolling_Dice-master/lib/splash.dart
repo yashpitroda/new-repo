@@ -3,6 +3,22 @@ import 'dart:ui';
 import 'package:shimmer/shimmer.dart';
 import 'package:rolling_Dice/homescreen.dart';
 import 'package:flutter/material.dart';
+/*
+
+import 'dart:async';
+import 'dart:ui';
+import 'package:shimmer/shimmer.dart';
+import 'package:rolling_Dice/homescreen.dart';
+import 'package:flutter/material.dart';import 'dart:async';
+import 'dart:ui';
+import 'package:shimmer/shimmer.dart';
+import 'package:rolling_Dice/homescreen.dart';
+import 'package:flutter/material.dart';import 'dart:async';
+import 'dart:ui';
+import 'package:shimmer/shimmer.dart';
+import 'package:rolling_Dice/homescreen.dart';
+import 'package:flutter/material.dart';
+ */
 
 class SplashScreen extends StatefulWidget {
   @override
@@ -34,7 +50,6 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      
       body: Center(
         child: Container(
           alignment: Alignment.center,
